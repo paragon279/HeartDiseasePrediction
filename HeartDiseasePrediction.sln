@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HeartDiseasePrediction", "HeartDiseasePrediction\HeartDiseasePrediction.pyproj", "{19F0D738-6266-4457-887F-F8137C64AE4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19F0D738-6266-4457-887F-F8137C64AE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F0D738-6266-4457-887F-F8137C64AE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D8790F2-8D6E-439F-80C3-CFB1810E46A7}
+	EndGlobalSection
+EndGlobal
