@@ -64,3 +64,20 @@ rf.fit(X_train, y_train)
 
 score = rf.score(X_test,  y_test)*100
 print('Accuracy of the model is = ', score)
+
+
+# confusion matrix
+from sklearn.metrics import confusion_matrix, classification_report
+
+cm = confusion_matrix(y_test, y_pred)
+conf_matrix = pd.DataFrame(data = cm,
+                           columns = ['Predicted:0', 'Predicted:1'],
+                           index = ['Actual:0', 'Actual:1'])
+
+plt.figure(figsize = (8,5))
+sn.heatmap(conf_matrix, annot = True, fmt = 'd', cmap = "Greens")
+
+plt.show()
+
+print('The details for confusion matrix is = ')
+print(classification_report(y_test, y_pred))
